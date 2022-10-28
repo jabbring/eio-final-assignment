@@ -6,11 +6,11 @@ You will complete this assignment in two stages. You will first, together with u
 ## Stage 1. Proposal 
 
 Deliverable: A one-page file `proposal.pdf` that 
-- specifies a research question, 
-- identifies a paper with a dynamic structural model that is suitable for answering this question (make sure to include a link to this paper), and 
+- specifies a research question (in any field of economics, finance, or marketing), 
+- identifies a paper with a dynamic structural model that is suitable for answering this question (include a link to this paper), and 
 - outlines a "bare-bones" version of this model that captures the application's essential mechanisms but leaves out all complicating details.
 
-Please check out our example proposals covering [teacher incentives in India](), [occupation choice](), and [childcare and female labor supply]().
+Examples of such proposals: [teacher incentives](examples/proposalTeachers.pdf), [occupation choice](examples/proposalOccupation.pdf), and [female labor supply and childcare subsidies](examples/proposalChildcare.pdf).
 
 ## Stage 2. Execution 
 
