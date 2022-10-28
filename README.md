@@ -11,7 +11,7 @@ You will complete this assignment in two stages. You will first, together with u
 - specifies a research question (in any field of economics, finance, or marketing), 
 - identifies a paper with a dynamic structural model that is suitable for answering this question (include a link to this paper), 
 - outlines a bare-bones version of this model, and 
-- specifies the type of data that will be simulated to estimate this bare-bones model (these do not have to be the type of data used in the paper).
+- specifies the type of data that will be simulated to estimate it (these do not have to be the type of data used in the paper).
 
 Examples of such proposals: [teacher incentives](examples/proposalTeachers.pdf), [occupation choice](examples/proposalOccupation.pdf), and [female labor supply and childcare subsidies](examples/proposalChildcare.pdf).
 
@@ -24,7 +24,7 @@ The `pdf` report should read like a paper (i.e., full sentences, typeset formula
 1. introduce the research question and the paper you build on (this can be taken from your proposal),
 2. completely describe your bare-bones model (this completes the outline in your proposal),
 3. detail how you (numerically) solve it,
-4. specify how and for which parameter values you generated data from the model, 
+4. specify how you generated data from the model and which parameter values you used for doing so, 
 5. describe your estimator of the parameters and its implementation and present your estimation results, and
 6. conclude by briefly reflecting on your results and discussing what else is needed to answer your research question (apart from real instead of simulated data; for example, a particular counterfactual analyses using the estimated model, which you do _not_ have to provide). 
 
