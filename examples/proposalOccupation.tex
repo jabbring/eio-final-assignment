@@ -1,22 +1,10 @@
 \documentclass[fleqn,12pt]{article}
 \usepackage{natbib}
-\usepackage{amsthm,amsfonts,amsopn,amsmath,amssymb,vmargin,verbatim,setspace}
-\usepackage{pgf,pgfplots,tikz}
-\usepackage{versions}
+\usepackage{amsthm,amsfonts,amsopn,amsmath,amssymb,vmargin}
 
 \RequirePackage[pagebackref=true]{hyperref}
 \RequirePackage{hypernat}
 
-%Choose whether to typeset figures in color or black and white.
-\excludeversion{grayfig}
-\includeversion{colorfig}
-
-\pgfdeclareimage[height=7cm]{toPic}{2017/readyMixConcrete}
-%\pgfdeclareimage[height=5.9cm]{cinema}{2016/tuschinski}
-%\pgfdeclareimage[height=5cm]{rvtwo}{2015/rvDealer2}
-
-
-\usetikzlibrary{arrows,calc,fit,matrix,positioning,shapes.multipart,shapes.symbols}
 \hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=red,
     pdftitle=EIO,
     pdfauthor=Jaap Abbring Tobias Klein,
@@ -24,47 +12,15 @@
     pdfkeywords=,
     pdfdisplaydoctitle=true}
 
-%\setpapersize{USletter}\setmargrb{25mm}{18mm}{25mm}{23mm}
 \setpapersize{A4} \setmargrb{25mm}{18mm}{25mm}{23mm}
-%\doublespace
 \renewcommand{\baselinestretch}{1.2}
 
-\let\oldthebibliography=\thebibliography
-\let\endoldthebibliography=\endthebibliography
-\renewenvironment{thebibliography}[1]{\begin{oldthebibliography}{#1}\setlength{\itemsep}{4.2pt}}{\end{oldthebibliography}}
-
-\newcommand{\pos}{tbp}
-
-\newcommand{\E}{\mathbb{E}}
-\newcommand{\sign}{\mathrm{sgn}}
-\newcommand{\R}{\mathbb{R}}
-\newcommand{\Rp}{[0,\infty)}
-\newcommand{\Rpp}{(0,\infty)}
-\newcommand{\Rpext}{[0,\infty]}
-\newcommand{\Rppext}{(0,\infty]}
-\newcommand{\C}{\mathbb{C}}
-\newcommand{\N}{\mathbb{N}}
-\newcommand\setmapsto{\rightarrow}
-\renewcommand\L{{\cal L}}
-\newcommand\Linv{{\cal K}}
-
-\newcommand{\var}{\mathrm{var}}
-
-\def\CC{C\texttt{++}\ }
- 
-\theoremstyle{plain}
-\newtheorem{theorem}{Theorem}
-\newtheorem{lemma}{Lemma}
-\theoremstyle{definition}
-\newtheorem{definition}{Definition}
-
-   \newcounter{keepenumi}
-%\renewcommand{\theenumi}{(\roman{enumi})}
-\newcommand{\cites}[1]{\citeauthor{#1}'s (\citeyear{#1})}
-
+\title{Occupation Choice}
+\author{An Example Proposal for the Final Assignment of EIO2 by JA \& TK}
+\date{}
 
 \begin{document}
-\section*{Occupation choice}
+\maketitle
 
 Develop a dynamic model of labor supply and occupation choice by heterogeneous workers that can be estimated using data on a panel of individuals from the time they leave school at age 20 to retirement at age 67. The panel data provide annual observations of whether individuals are employed and, if so, in which one of two occupations. It also comes with some time-invariant characteristics of each individual. Wages and earnings are not observed. 
 

@@ -1,22 +1,10 @@
 \documentclass[fleqn,12pt]{article}
 \usepackage{natbib}
-\usepackage{amsthm,amsfonts,amsopn,amsmath,amssymb,vmargin,verbatim,setspace}
-\usepackage{pgf,pgfplots,tikz}
-\usepackage{versions}
+\usepackage{amsthm,amsfonts,amsopn,amsmath,amssymb,vmargin}
 
 \RequirePackage[pagebackref=true]{hyperref}
 \RequirePackage{hypernat}
 
-%Choose whether to typeset figures in color or black and white.
-\excludeversion{grayfig}
-\includeversion{colorfig}
-
-\pgfdeclareimage[height=7cm]{toPic}{2017/readyMixConcrete}
-%\pgfdeclareimage[height=5.9cm]{cinema}{2016/tuschinski}
-%\pgfdeclareimage[height=5cm]{rvtwo}{2015/rvDealer2}
-
-
-\usetikzlibrary{arrows,calc,fit,matrix,positioning,shapes.multipart,shapes.symbols}
 \hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=red,
     pdftitle=EIO,
     pdfauthor=Jaap Abbring Tobias Klein,
@@ -24,47 +12,15 @@
     pdfkeywords=,
     pdfdisplaydoctitle=true}
 
-%\setpapersize{USletter}\setmargrb{25mm}{18mm}{25mm}{23mm}
 \setpapersize{A4} \setmargrb{25mm}{18mm}{25mm}{23mm}
-%\doublespace
 \renewcommand{\baselinestretch}{1.2}
 
-\let\oldthebibliography=\thebibliography
-\let\endoldthebibliography=\endthebibliography
-\renewenvironment{thebibliography}[1]{\begin{oldthebibliography}{#1}\setlength{\itemsep}{4.2pt}}{\end{oldthebibliography}}
-
-\newcommand{\pos}{tbp}
-
-\newcommand{\E}{\mathbb{E}}
-\newcommand{\sign}{\mathrm{sgn}}
-\newcommand{\R}{\mathbb{R}}
-\newcommand{\Rp}{[0,\infty)}
-\newcommand{\Rpp}{(0,\infty)}
-\newcommand{\Rpext}{[0,\infty]}
-\newcommand{\Rppext}{(0,\infty]}
-\newcommand{\C}{\mathbb{C}}
-\newcommand{\N}{\mathbb{N}}
-\newcommand\setmapsto{\rightarrow}
-\renewcommand\L{{\cal L}}
-\newcommand\Linv{{\cal K}}
-
-\newcommand{\var}{\mathrm{var}}
-
-\def\CC{C\texttt{++}\ }
- 
-\theoremstyle{plain}
-\newtheorem{theorem}{Theorem}
-\newtheorem{lemma}{Lemma}
-\theoremstyle{definition}
-\newtheorem{definition}{Definition}
-
-   \newcounter{keepenumi}
-%\renewcommand{\theenumi}{(\roman{enumi})}
-\newcommand{\cites}[1]{\citeauthor{#1}'s (\citeyear{#1})}
-
+\title{Teacher Incentives}
+\author{An Example Proposal for the Final Assignment of EIO2 by JA \& TK}
+\date{}
 
 \begin{document}
-\section*{Teacher incentives}
+\maketitle
 
 \citet{aer12:dufloetal} used experimental data to study the effects of monitoring and incentive pay on teacher absence and learning in India. In the experiment's treatment group, daily attendance is closely monitored and teachers earn $\pi(l)=500+50\cdot\max\{0,l-10\}$ rupees at the start of the month for $l$ days of work in the preceding month. \citeauthor{aer12:dufloetal} first studied the effects of monitoring and incentive pay using simple experimental comparisons between the treatment and control groups (the latter did not get the same level of monitoring nor incentive pay). Then, they estimated a daily labor supply model using data on the treatment group, which allows to extrapolate the experimental findings to other wage schedules than the experimental one. 
 
