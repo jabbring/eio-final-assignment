@@ -1,14 +1,17 @@
 # Final Assignment EIO2
 ## Jaap Abbring and Tobias Klein
 
+Find a paper that empirically studies an interesting (to you) problem using a dynamic discrete choice model (possibly one with strategic interactions) and specify a version of this model that captures its essential mechanisms but leaves out all complicating details. Then, numerically solve this "bare-bones" model, simulate data from it, and estimate its parameters using the simulated data.
+
 You will complete this assignment in two stages. You will first, together with us, develop a short proposal. Then, independently, you will execute this proposal.
 
 ## Stage 1. Proposal 
 
 **Deliverable**: A one-page file `proposal.pdf` that 
 - specifies a research question (in any field of economics, finance, or marketing), 
-- identifies a paper with a dynamic structural model that is suitable for answering this question (include a link to this paper), and 
-- outlines a "bare-bones" version of this model that captures the application's essential mechanisms but leaves out all complicating details.
+- identifies a paper with a dynamic structural model that is suitable for answering this question (include a link to this paper), 
+- outlines a bare-bones version of this model, and 
+- specifies the type of data that will be simulated to estimate this bare-bones model (these do not have to be the type of data used in the paper).
 
 Examples of such proposals: [teacher incentives](examples/proposalTeachers.pdf), [occupation choice](examples/proposalOccupation.pdf), and [female labor supply and childcare subsidies](examples/proposalChildcare.pdf).
 
