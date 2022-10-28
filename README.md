@@ -1,29 +1,23 @@
 # Final Assignment EIO2
 ## Jaap Abbring and Tobias Klein
 
-In this final assignment, you will 
-- find an empirical application of the econometrics of dynamic discrete choices and/or games that fits your research interests,
-- specify a "bare-bones" dynamic structural model that captures the application's essential mechanisms but leaves out all complicating details, and 
-- develop and apply code to numerically solve this model, simulate data from it, estimate the structural parameters using simulated data.
-
-You will complete the assignment in two stages, (1) proposal and (2) execution.
+You will complete this assignment in two stages. You will first, together with us, develop a short proposal. Then, independnetly, you will execute this proposal.
 
 ## Stage 1. Proposal 
 
-Write a one-page proposal that specifies a research question, identifies a paper with a dynamic structural model that is suitable for answering this qeustion, and outlines your bare-bones version of this model. `proposal.tex` 
+Deliverable: A one-page `proposal.pdf` (presumably generated from a source file `proposal.tex`) that 
+- specifies a research question, 
+- identifies a paper with a dynamic structural model that is suitable for answering this question, and 
+- outlines a "bare-bones" version of this model that captures the application's essential mechanisms but leaves out all complicating details.
 
-
-Find an empirical application of the econometrics of dynamic discrete choices and games that fits your research interests. This application may be in any field of economics, finance, or marketing. Ideally, propose a single paper that covers a question that interests you and that contains a dynamic structural model to answer it. 
-
-
-
-
-in the literature that fits your research interests and propose a  dynamic structural model that captures its main features of interest to you, but . 
-
-
-
+Some directions:
+- You will _not_ use real data, only data you simulate yourself from the model.
+- Provide a permanent (`doi`) link to the paper, so that we can check it out.
 
 ## Stage 2. Execution 
+
+Deliverables: Code and a `pdf` file discussing the results. 
+
 ### Code 
 The code solves the model, simulates data, and estimates the parameters of the model. 
 
