@@ -5,7 +5,7 @@ You will complete this assignment in two stages. You will first, together with u
 
 ## Stage 1. Proposal 
 
-Deliverable: A one-page file `proposal.pdf` that 
+**Deliverable**: A one-page file `proposal.pdf` that 
 - specifies a research question (in any field of economics, finance, or marketing), 
 - identifies a paper with a dynamic structural model that is suitable for answering this question (include a link to this paper), and 
 - outlines a "bare-bones" version of this model that captures the application's essential mechanisms but leaves out all complicating details.
@@ -14,7 +14,7 @@ Examples of such proposals: [teacher incentives](examples/proposalTeachers.pdf),
 
 ## Stage 2. Execution 
 
-Deliverables: A `pdf` report discussing your results and code that exactly reproduces them. 
+**Deliverables**: A `pdf` report discussing your results and code that exactly reproduces them. 
 
 ### Report
 The `pdf` report should read like a paper (i.e., full sentences, typeset formulas, no code, etc.) and have six short sections that
