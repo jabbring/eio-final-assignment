@@ -1,0 +1,85 @@
+\documentclass[fleqn,12pt]{article}
+\usepackage{natbib}
+\usepackage{amsthm,amsfonts,amsopn,amsmath,amssymb,vmargin,verbatim,setspace}
+\usepackage{pgf,pgfplots,tikz}
+\usepackage{versions}
+
+\RequirePackage[pagebackref=true]{hyperref}
+\RequirePackage{hypernat}
+
+%Choose whether to typeset figures in color or black and white.
+\excludeversion{grayfig}
+\includeversion{colorfig}
+
+\pgfdeclareimage[height=7cm]{toPic}{2017/readyMixConcrete}
+%\pgfdeclareimage[height=5.9cm]{cinema}{2016/tuschinski}
+%\pgfdeclareimage[height=5cm]{rvtwo}{2015/rvDealer2}
+
+
+\usetikzlibrary{arrows,calc,fit,matrix,positioning,shapes.multipart,shapes.symbols}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=red,
+    pdftitle=EIO,
+    pdfauthor=Jaap Abbring Tobias Klein,
+    pdfsubject=JEL Codes C14 C41,
+    pdfkeywords=,
+    pdfdisplaydoctitle=true}
+
+%\setpapersize{USletter}\setmargrb{25mm}{18mm}{25mm}{23mm}
+\setpapersize{A4} \setmargrb{25mm}{18mm}{25mm}{23mm}
+%\doublespace
+\renewcommand{\baselinestretch}{1.2}
+
+\let\oldthebibliography=\thebibliography
+\let\endoldthebibliography=\endthebibliography
+\renewenvironment{thebibliography}[1]{\begin{oldthebibliography}{#1}\setlength{\itemsep}{4.2pt}}{\end{oldthebibliography}}
+
+\newcommand{\pos}{tbp}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\sign}{\mathrm{sgn}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Rp}{[0,\infty)}
+\newcommand{\Rpp}{(0,\infty)}
+\newcommand{\Rpext}{[0,\infty]}
+\newcommand{\Rppext}{(0,\infty]}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand\setmapsto{\rightarrow}
+\renewcommand\L{{\cal L}}
+\newcommand\Linv{{\cal K}}
+
+\newcommand{\var}{\mathrm{var}}
+
+\def\CC{C\texttt{++}\ }
+ 
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+
+   \newcounter{keepenumi}
+%\renewcommand{\theenumi}{(\roman{enumi})}
+\newcommand{\cites}[1]{\citeauthor{#1}'s (\citeyear{#1})}
+
+
+\begin{document}
+\section*{Occupation choice}
+
+Develop a dynamic model of labor supply and occupation choice by heterogeneous workers that can be estimated using data on a panel of individuals from the time they leave school at age 20 to retirement at age 67. The panel data provide annual observations of whether individuals are employed and, if so, in which one of two occupations. It also comes with some time-invariant characteristics of each individual. Wages and earnings are not observed. 
+
+Your model is a finite horizon model in which each worker starts with no experience in either occupation and chooses each year between working in one of the two occupations or unemployment. Earnings in each occupations depend on the work experience in that occupation only. 
+
+Concretely, use an adapted and simplified version of the model in \citet[][Section I]{doi:10.1086/262080}:
+\begin{itemize}
+\item All schooling is completed at age 20 and there are only two working alternatives (occupations). So, each year, individuals choose either one of these two occupations or unemployment.
+\item Earnings in each occupation only depend on work experience in that occupation and some initial endowments, which subsume schooling and may vary with observed characteristics. There is no shock to earnings ($\epsilon_m(a)=0$).
+\item Individuals maximize expected discounted utility. Utility from employment equals earnings plus an independent occupation-specific type 1 extreme value shock. Utility from unemployment equals another independent type 1 extreme value shock (possibly around some nonzero mean).
+\end{itemize}
+Be aware that the model may be oversimplified to the point it does not generate nontrivial data; if so, tweak it to be functional as a statistical model. 
+
+Try to find an interesting (from the perspective of your own research) way to include observed characteristics in the model. Perhaps, this requires some adaptation to allow for differences in riskiness across occupations. It may also be interesting to reflect a bit on the possible role of earnings data in the analysis of this model.
+
+\bibliographystyle{chicago}
+\bibliography{final}
+\end{document}
