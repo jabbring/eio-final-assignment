@@ -1,14 +1,29 @@
 # Final Assignment EIO2
 ## Jaap Abbring and Tobias Klein
 
-In this final assignment, with our help, you will find a suitable application in the literature that fits your research interests and propose a barebones version of this application's dynamic structural model that (only) captures its main features of interest to you. Then, you will numerically solve a dynamic structural model, simulate data from the model, and program and apply an estimator of the structural parameters of the model. Note that each student will work on a different model.  This document details elements that are common to all students.
+In this final assignment, you will 
+- find an empirical application of the econometrics of dynamic discrete choices and/or games that fits your research interests,
+- specify a "bare-bones" dynamic structural model that captures the application's essential mechanisms but leaves out all complicating details, and 
+- develop and apply code to numerically solve this model, simulate data from it, estimate the structural parameters using simulated data.
 
-Please work in a Github repository and with frequent commits. The repository should contain the complete code and a PDF document. Please invite us to the repository at an early stage. We will grade the head revision at the time of the deadline.
+You will complete the assignment in two stages, (1) proposal and (2) execution.
 
-## 1. Proposal 
-The code solves the model, simulates data, and estimates the parameters of the model. 
+## Stage 1. Proposal 
 
-## 2. Execution 
+Write a one-page proposal that specifies a research question, identifies a paper with a dynamic structural model that is suitable for answering this qeustion, and outlines your bare-bones version of this model. `proposal.tex` 
+
+
+Find an empirical application of the econometrics of dynamic discrete choices and games that fits your research interests. This application may be in any field of economics, finance, or marketing. Ideally, propose a single paper that covers a question that interests you and that contains a dynamic structural model to answer it. 
+
+
+
+
+in the literature that fits your research interests and propose a  dynamic structural model that captures its main features of interest to you, but . 
+
+
+
+
+## Stage 2. Execution 
 ### Code 
 The code solves the model, simulates data, and estimates the parameters of the model. 
 
