@@ -4,13 +4,8 @@
 
 \RequirePackage[pagebackref=true]{hyperref}
 \RequirePackage{hypernat}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=red,pdftitle=EIO,pdfauthor=Jaap Abbring Tobias Klein,pdfdisplaydoctitle=true}
 
-\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=red,
-    pdftitle=EIO,
-    pdfauthor=Jaap Abbring Tobias Klein,
-    pdfsubject=JEL Codes C14 C41,
-    pdfkeywords=,
-    pdfdisplaydoctitle=true}
 
 \setpapersize{A4} \setmargrb{25mm}{18mm}{25mm}{23mm}
 \renewcommand{\baselinestretch}{1.2}
@@ -26,7 +21,7 @@ Develop a dynamic model of labor supply and occupation choice by heterogeneous w
 
 Your model is a finite horizon model in which each worker starts with no experience in either occupation and chooses each year between working in one of the two occupations or unemployment. Earnings in each occupations depend on the work experience in that occupation only. 
 
-Concretely, use an adapted and simplified version of the model in \citet[][Section I]{doi:10.1086/262080}:
+Concretely, use an adapted and simplified version of the model in \citet[][Section I]{jpe97:ecksteinwolpin}:
 \begin{itemize}
 \item All schooling is completed at age 20 and there are only two working alternatives (occupations). So, each year, individuals choose either one of these two occupations or unemployment.
 \item Earnings in each occupation only depend on work experience in that occupation and some initial endowments, which subsume schooling and may vary with observed characteristics. There is no shock to earnings ($\epsilon_m(a)=0$).
@@ -36,14 +31,6 @@ Be aware that the model may be oversimplified to the point it does not generate 
 
 Try to find an interesting (from the perspective of your own research) way to include observed characteristics in the model. Perhaps, this requires some adaptation to allow for differences in riskiness across occupations. It may also be interesting to reflect a bit on the possible role of earnings data in the analysis of this model.
 
-\begin{thebibliography}{}
-
-\bibitem[\protect\citeauthoryear{Keane and Wolpin}{Keane and
-  Wolpin}{1997}]{doi:10.1086/262080}
-Keane, M. and K.~Wolpin (1997).
-\newblock The career decisions of young men.
-\newblock {\em Journal of Political Economy\/}~{\em 105\/}(3), 473--522.
-\newblock https://doi.org/10.1086/262080.
-
-\end{thebibliography}
+\bibliographystyle{chicago}
+\bibliography{examples}
 \end{document}

@@ -1,0 +1,44 @@
+\documentclass[fleqn,12pt]{article}
+\usepackage{natbib}
+\usepackage{amsthm,amsfonts,amsopn,amsmath,amssymb,vmargin}
+
+\RequirePackage[pagebackref=true]{hyperref}
+\RequirePackage{hypernat}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=red,pdftitle=EIO,pdfauthor=Jaap Abbring Tobias Klein,pdfdisplaydoctitle=true}
+
+\setpapersize{A4} \setmargrb{25mm}{18mm}{25mm}{23mm}
+\renewcommand{\baselinestretch}{1.2}
+
+\title{[Title]}
+\author{[Name]}
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+[Introduce the research question and the paper \citep{journalYY:authors} you build on (this can be taken from your proposal).]
+
+\section{Model}
+
+[Completely describe your bare-bones model (this completes the outline in your proposal).]
+
+\section{Solving the Model}
+
+[Detail how you (numerically) solve the model.]
+
+\section{Data}
+
+[Specify how you generated data from the model and which parameter values you used for doing so.]
+
+\section{Estimation}
+
+[Describe your estimator of the parameters and its implementation and present your estimation results.]
+
+\section{Conclusion}
+
+[Conclude by briefly reflecting on your results and discussing what else is needed to answer your research question (apart from real instead of simulated data; for example, a particular counterfactual analyses using the estimated model, which you do not have to provide).]
+
+
+\bibliographystyle{chicago}
+\bibliography{examples/examples}
+\end{document}
