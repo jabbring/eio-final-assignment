@@ -17,19 +17,17 @@
 \begin{document}
 \maketitle
 
-Develop a dynamic model of labor supply and occupation choice by heterogeneous workers that can be estimated using data on a panel of individuals from the time they leave school at age 20 to retirement at age 67. The panel data provide annual observations of whether individuals are employed and, if so, in which one of two occupations. It also comes with some time-invariant characteristics of each individual. Wages and earnings are not observed. 
+We will study whether observed dynamic patterns of occupational choice can be explained by a model with occupution-specific human capital.
 
-Your model is a finite horizon model in which each worker starts with no experience in either occupation and chooses each year between working in one of the two occupations or unemployment. Earnings in each occupations depend on the work experience in that occupation only. 
-
-Concretely, use an adapted and simplified version of the model in \citet[][Section I]{jpe97:ecksteinwolpin}:
+Our model is a finite horizon model in which each worker starts with no experience in either occupation and chooses each year between working in one of the two occupations or unemployment. Earnings in each occupations depend on the work experience in that occupation only. Concretely, we use an adapted and simplified version of the model in \citet[][Section I]{jpe97:ecksteinwolpin}:
 \begin{itemize}
 \item All schooling is completed at age 20 and there are only two working alternatives (occupations). So, each year, individuals choose either one of these two occupations or unemployment.
 \item Earnings in each occupation only depend on work experience in that occupation and some initial endowments, which subsume schooling and may vary with observed characteristics. There is no shock to earnings ($\epsilon_m(a)=0$).
 \item Individuals maximize expected discounted utility. Utility from employment equals earnings plus an independent occupation-specific type 1 extreme value shock. Utility from unemployment equals another independent type 1 extreme value shock (possibly around some nonzero mean).
 \end{itemize}
-Be aware that the model may be oversimplified to the point it does not generate nontrivial data; if so, tweak it to be functional as a statistical model. 
 
-Try to find an interesting (from the perspective of your own research) way to include observed characteristics in the model. Perhaps, this requires some adaptation to allow for differences in riskiness across occupations. It may also be interesting to reflect a bit on the possible role of earnings data in the analysis of this model.
+We will simulate data on a panel of individuals from the time they leave school at age 20 to retirement at age 67. The panel data provide annual observations of whether individuals are employed and, if so, in which one of two occupations. It also comes with some time-invariant characteristics of each individual. Wages and earnings are not observed. 
+
 
 \bibliographystyle{chicago}
 \bibliography{examples}

@@ -16,20 +16,17 @@
 \begin{document}
 \maketitle
 
-Develop a dynamic labor supply model that can be estimated using data on a panel of women from the time they leave school at age 22 to retirement at age 70. The panel data provide annual observations of employment and fertility. Moreover, for each woman, it indicates whether she is covered by a child support program (throughout her life) or not. Wages and earnings are not observed. 
+We will study how the level of childcare support affects female labor supply.
 
-Your labor supply model is a finite horizon model in which each woman starts with neither kids nor work experience and makes annual decisions to work or not. Annual earnings depend on work experience following a Mincer-like equation. Kids arrive exogenously and increase the utility cost of working; childcare support limits this increase. 
-
-Concretely, take the model (but not the type of data!) in \citet[][Section 3]{ecma11:ecksteinwolpin} and allow childcare support to mitigate the effect of motherhood on the utility cost of working. To keep things manageable, simplify that model in many dimensions:
+To this end, we consider a finite horizon model of female labor supply in which each woman starts with neither kids nor work experience and makes annual decisions to work or not. Annual earnings depend on work experience following a Mincer-like equation. Kids arrive exogenously and increase the utility cost of working; childcare support limits this increase. Concretely, we take the model (but not the type of data!) in \citet[][Section 3]{ecma11:ecksteinwolpin} and allow childcare support to mitigate the effect of motherhood on the utility cost of working. To keep things manageable, we will simplify that model in many dimensions:
 \begin{itemize}
-\item Make marriage dynamics irrelevant by setting  $M_t=1$ throughout.
-\item Simplify fertility by assuming that it only matters whether a woman has children or not and that, as long as she has none, they arrive with a probability that may depend only on her age. 
-\item In the specification of earnings, ignore education ($S$) and earnings shocks ($\varepsilon_t=0$). Moreover, assume that a job providing these earnings is always available (that is, ignore the specification of a job offer probability).
-\item In the specification of utility, only keep the main effects of consumption ($x_t$) and work ($(\alpha_1+v_t)p_t$), plus an effect of motherhood on the disutility of work mediated by childcare support. Let  $v_t$ have a logistic distribution.
+\item We will make marriage dynamics irrelevant by setting  $M_t=1$ throughout.
+\item We will simplify fertility by assuming that it only matters whether a woman has children or not and that, as long as she has none, they arrive with a probability that may depend only on her age. 
+\item In the specification of earnings, we will ignore education ($S$) and earnings shocks ($\varepsilon_t=0$). Moreover, we will assume that a job providing these earnings is always available (that is, we will ignore the specification of a job offer probability).
+\item In the specification of utility, we will only keep the main effects of consumption ($x_t$) and work ($(\alpha_1+v_t)p_t$), plus an effect of motherhood on the disutility of work mediated by childcare support. We will let $v_t$ have a logistic distribution.
 \end{itemize}
-Be aware that the model may be oversimplified to the point it does not generate nontrivial data; if so, tweak it to be functional as a statistical model. 
 
-More generally, only if you have time, you may want to relax some of the most unrealistic assumptions, such as the homogeneity (of schooling, ability, etc.) assumption and the assumption that a kid will require child care throughout the rest of the mother's life. 
+We will simulate data on a panel of women from the time they leave school at age 22 to retirement at age 70. The panel data provide annual observations of employment and fertility. Moreover, for each woman, it indicates whether she is covered by a child support program (throughout her life) or not. Wages and earnings are not observed. 
 
 \bibliographystyle{chicago}
 \bibliography{examples}
