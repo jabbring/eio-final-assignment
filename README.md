@@ -13,7 +13,7 @@ You will complete this assignment in two stages. You will first, together with u
 - outlines a bare-bones version of the model that is just rich enough for a nontrivial analysis of this question, and 
 - specifies the type of data that will be simulated to estimate it (these do not have to be the type of data used in the paper).
 
-Examples of such proposals: [teacher incentives](examples/proposalTeachers.pdf), [occupation choice](examples/proposalOccupation.pdf), and [female labor supply and childcare subsidies](examples/proposalChildcare.pdf).
+Examples of such proposals: [teacher incentives](examples/proposalTeachers.pdf), [occupation choice](examples/proposalOccupation.pdf), and [childcare subsidies](examples/proposalChildcare.pdf).
 
 ## Stage 2. Execution 
 
