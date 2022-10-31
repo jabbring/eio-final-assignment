@@ -10,7 +10,7 @@ From the very beginning, please work in your Github repository. Commit often. Al
 
 ## Stage 1. Proposal 
 
-**Deliverable**: A one-page file `proposal.pdf`. You can generate it using the [proposal template](proposal.tex) or any other way you like (in that case please still follow the structure in the template). The proposal
+**Deliverable**: A one-page file `proposal.pdf`. You can generate it using the [proposal template](proposal.tex) or any other way you like. The proposal
 - identifies a paper in any field of economics, finance, or marketing that uses a dynamic structural model (include a link to this paper), 
 - specifies a concrete research question that can be answered using this model, 
 - outlines a bare-bones version of the model that is just rich enough for a nontrivial analysis of this question, and 
@@ -35,6 +35,8 @@ The report should be in PDF format and should be saved under the name `report.pd
 6. conclude by briefly reflecting on your results and discussing what else is needed to answer your research question (apart from real instead of simulated data; for example, a particular counterfactual analyses using the estimated model, which you do _not_ have to provide). 
 
 Regarding 4. and 5., at a minimum, please report estimates for three simulated data sets of different size: many observations so that estimates are very close to the true values, very few observations so that estimates are relatively far away because of estimation error, and a situation somewhere in-between. If time permits, you may also run and report on a full Monte Carlo exercise in which you assess the accuracy of the asymptotic approximations (again varying the number of observations).
+
+You can use the [report template](report.tex) if you want. If not, please still follow the structure in the template.
 
 ### Code 
 At its core, the code provides procedures for solving the model, simulating data, and estimating the parameters of the model. Please make sure to set a seed, so that the results are reproduced exactly. Please make sure the code produces all numbers and plots in the report in one go. That is, do not ask us to re-run the script several times and always changing a parameter. Instead, automate this. Keep the code compact and avoid duplication. See for instance [here](https://tilburgsciencehub.com/building-blocks/develop-your-research-skills/tips/principles-good-coding/) for advice.
