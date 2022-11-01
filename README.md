@@ -5,8 +5,8 @@ In this final assignment, you will find a paper that empirically studies an inte
 
 You will complete this assignment in two stages. You will first, together with us, develop a short proposal. Then, independently, you will execute this proposal.
 
-## Github
-From the very beginning, please work in your Github repository. Commit often. Also commit the PDF files `proposal.pdf` and `report.pdf` to the repository.
+## GitHub
+From the very beginning, please work in your GitHub repository. Commit often. Also commit the PDF files `proposal.pdf` and `report.pdf` to the repository.
 
 ## Stage 1. Proposal 
 
