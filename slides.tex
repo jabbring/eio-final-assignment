@@ -1,44 +1,45 @@
-\documentclass[fleqn,12pt]{article}
-\usepackage{natbib}
-\usepackage{amsthm,amsfonts,amsopn,amsmath,amssymb,vmargin}
-
-\RequirePackage[pagebackref=true]{hyperref}
-\RequirePackage{hypernat}
-\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=red,pdftitle=EIO,pdfauthor=Jaap Abbring Tobias Klein,pdfdisplaydoctitle=true}
-
-\setpapersize{A4} \setmargrb{25mm}{18mm}{25mm}{23mm}
-\renewcommand{\baselinestretch}{1.2}
+% !TEX root = slides.tex
+\documentclass[aspectratio=1610]{beamer}
+\pagestyle{empty}
+\usepackage{amsmath,amssymb,bm,booktabs}
+\usepackage{graphicx}
+\setbeameroption{hide notes}
 
 \title{[Title]}
 \author{[Name]}
+\date{}
+
 \begin{document}
-\maketitle
+\frame{\titlepage}
 
 \section{Introduction}
-
-[Introduce the research question and the paper \citep{journalYY:authors} you build on (this can be taken from your proposal).]
+\begin{frame}{Introduction}
+[Introduce the research question and the paper you build on (this can be taken from your proposal).]
+\end{frame}
 
 \section{Model}
-
+\begin{frame}{Model}
 [Completely describe your bare-bones model (this completes the outline in your proposal).]
+\end{frame}
 
 \section{Solving the Model}
-
+\begin{frame}{Solving the Model}
 [Detail how you (numerically) solve the model.]
+\end{frame}
 
 \section{Data}
-
+\begin{frame}{Data}
 [Specify how you generated data from the model and which parameter values you used for doing so.]
+\end{frame}
 
 \section{Estimation}
-
+\begin{frame}{Estimation}
 [Describe your estimator of the parameters and its implementation and present your estimation results.]
+\end{frame}
 
 \section{Conclusion}
-
+\begin{frame}{Conclusion}
 [Conclude by briefly reflecting on your results and discussing what else is needed to answer your research question (apart from real instead of simulated data; for example, a particular counterfactual analyses using the estimated model, which you do not have to provide).]
+\end{frame}
 
-
-\bibliographystyle{chicago}
-\bibliography{examples/examples}
 \end{document}
